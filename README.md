@@ -1,6 +1,6 @@
 # **🪄Stationery_application_introduction(Collaborate with designers)**
 
-## Design : 2V
+## Design : 2
 
 ## FrontEnd : 1
 
