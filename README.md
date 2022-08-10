@@ -1,12 +1,12 @@
-# **🎉Stationery_application_introduction(Collaborate with designers)**
+# 🎉Moon:s
+Stationery_application_introduction<br />
+Collaborate with designers
 
 ## Design : 2
 
 ## FrontEnd : 1
 
-<hr />
-
-## **웹사이트 소개**
+## 📖웹사이트 소개
 
 ### **Goal**
 
@@ -20,11 +20,8 @@
 
 따뜻함, 감성, 손글씨
 
-<hr />
+## 📌추후 개발 UI function
 
-## **추후 개발 UI function** <br/>
-
-▶ mouse event<br />
 ▶ Modals<br />
 ▶ Sidebar<br />
 ▶ Card<br />
