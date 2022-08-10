@@ -1,6 +1,6 @@
 # 🎉Moon:s
-Stationery application introduction<br />
-Collaborate with designers
+- Stationery application introduction<br />
+- Collaborate with designers
 
 ## Design : 2
 
