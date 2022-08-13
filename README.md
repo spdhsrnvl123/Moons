@@ -22,9 +22,6 @@
 
 ## 📌추후 개발 UI function
 
-▶ Modals<br />
-▶ Sidebar<br />
-▶ Card<br />
 ▶ Doner Menu<br />
 ▶ Loader<br />
 ▶ mobile environment<br />
