@@ -24,3 +24,34 @@ Front-end - 1명
 - Scroll Event
 - Animation
 - Section Navigation move button
+
+## 🎬 프로젝트 시연 영상
+<table border="1">
+    <thead>
+        <tr style="text-align:center">
+            <td>메인페이지</td>
+            <td>어바웃페이지</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td><img width="400px" src="./presentationGif/%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%80.gif" /></td>
+            <td><img width="400px" src="./presentationGif/어바웃페이지.gif" /></td>
+        </tr>
+    </tbody>
+        <thead >
+        <tr style="text-align:center">
+            <td>서비스페이지</td>
+            <td>미디어페이지</td>
+        </tr>
+    </thead>
+    <tbody>
+        <tr> 
+            <td><img width="400px" src="./presentationGif/서비스페이지.gif" /></td>
+            <td><img width="400px" src="./presentationGif/미디어페이지.gif" /></td>
+        </tr>
+    </tbody>
+</table>
+
+
+
