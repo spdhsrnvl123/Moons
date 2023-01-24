@@ -26,7 +26,7 @@ Front-end - 1명
 - Section Navigation move button
 
 ## 🎬 프로젝트 시연 영상
-<table border="1">
+<table>
     <thead>
         <tr style="text-align:center">
             <td>메인페이지</td>
