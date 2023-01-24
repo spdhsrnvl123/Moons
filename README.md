@@ -1,5 +1,5 @@
 # ✏️Moon:s
-<img width="700" alt="스크린샷 2023-01-24 오후 3 46 03 1" src="https://user-images.githubusercontent.com/83896466/214228828-5e770520-5812-440d-84a4-2d1622f3b1ae.png">
+<img width="754" alt="스크린샷 2023-01-24 오후 3 46 03 1" src="https://user-images.githubusercontent.com/83896466/214228828-5e770520-5812-440d-84a4-2d1622f3b1ae.png">
 
 ## 🌈 프로젝트 소개
 Moon:s 웹 사이트는 감성 필기구를 판매하는 브랜드와 앱을 소개하며 필기구에 관련된 다양한 칼럼과 영상을 추천합니다.
