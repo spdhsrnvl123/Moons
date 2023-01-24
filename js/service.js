@@ -15,10 +15,8 @@ const update = () => {
             second_text_1 : document.querySelector(".section-1-under .second-text-1")
         },
         {
-
         },
         {
-
         },
         {
             sens: document.querySelector(".section-4-under .writing .sens"),
@@ -26,14 +24,10 @@ const update = () => {
             group02 : document.querySelector(".section-4-under .writing .group02")
         },
         {
-
         },
         {
-
         },
     ]
-
-    console.log(element[1].img)
 
     window.addEventListener("scroll", () => {
         let yOffset = window.pageYOffset;
@@ -89,7 +83,6 @@ const update = () => {
                 break;
         }
     }
-
 }
 
 window.addEventListener("load", update);

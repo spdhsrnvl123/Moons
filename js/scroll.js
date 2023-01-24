@@ -69,10 +69,8 @@
             }
         }
         document.body.setAttribute('id', `show-scene-${currentScene}`);
-
         //새로고침 방지
         playAnimation()
-
     }
 
     const calculate = (value, currentYOffset) => {
