@@ -34,7 +34,7 @@ Front-end - 1명
     </thead>
     <tbody>
         <tr>
-            <td><img width="400px" src="./presentationGif/%EB%A9%94%EC%9D%B8%ED%8E%98%EC%9D%B4%EC%A7%80.gif" /></td>
+            <td><img width="400px" src="./presentationGif/메인페이지.gif" /></td>
             <td><img width="400px" src="./presentationGif/어바웃페이지.gif" /></td>
         </tr>
     </tbody>
