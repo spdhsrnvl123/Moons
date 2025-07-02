@@ -1,6 +1,6 @@
 @font-face {
   font-family: WildernessTypeface-Regular;
-  src: url("../font/WildernessTypeface-Regular.ttf");
+  src: url("../../assets/font/WildernessTypeface-Regular.ttf");
 }
 @font-face {
   font-family: inklipquid;
@@ -307,7 +307,7 @@ section {
   height: 20vw;
   animation: enlarge 2s ease-in-out alternate infinite;
 }
-/* --------------------------------------------------- */
+
 .section-3.active .section-3-under img,
 .section-3.active .box-3 .number-3,
 .section-3.active .box-3 .first-text-3,
@@ -363,7 +363,7 @@ section {
   transition: all 1s 0.8s;
   width: 100vw;
 }
-/* --------------------------------------------------- */
+
 .section-4.active .writing .number-4,
 .section-4.active .writing .first-text-4,
 .section-4.active .writing .second-text-4 {
@@ -614,7 +614,7 @@ section {
   transition: all 1s 0.8s;
   width: 100vw;
 }
-/* --------------------------------------------------- */
+
 .section-7.active .section-7-under img:nth-child(1),
 .section-7.active .section-7-under img:nth-child(2),
 .section-7.active .box-7 .number-7,
@@ -693,14 +693,14 @@ section {
   z-index: -1;
   background-position-y: 47vw;
 }
-/* --------------------------------------------------- */
+
 .section-8 {
   background-image: url(../images2/09.jpg);
   background-size: 100vw;
   background-repeat: no-repeat;
   background-position-y: -6vw;
 }
-/* --------------------------------------------------- */
+
 footer {
   position: relative;
   height: 14vh;
