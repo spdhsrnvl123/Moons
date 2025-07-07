@@ -7,7 +7,7 @@
   src: url("../../assets/font/inklipquid.ttf");
 }
 html {
-  font-size: 1vw;
+  /* font-size: 1vw; */
   overflow-x: hidden;
 }
 header {
@@ -48,13 +48,14 @@ header {
 
 #container-0 {
   position: relative;
-  height: 53vw;
+  /* height: 53vw; */
+  height: 100vh;
 }
 section {
-  width: 100%;
-  height: 53vw;
-  align-items: center;
   position: absolute;
+  width: 100%;
+  height: 100%;
+  align-items: center;
   top: 0;
   left: 0;
   z-index: 0;
@@ -66,7 +67,7 @@ section {
   background-image: url("../../assets/images/pages/home/bg-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-y: -2.1vw;
+  /* background-position-y: -2.1vw; */
 }
 
 #represent_title {
@@ -120,8 +121,9 @@ section {
   color: #144814;
   background-image: url("../../assets/images/pages/home/bg-2.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-position-y: -2.1vw;
+  background-size: cover;
+  /* background-size: 100%; */
+  /* background-position-y: -2.1vw; */
 }
 
 .section-1-content {
@@ -147,8 +149,9 @@ section {
   color: #144814;
   background-image: url("../../assets/images/pages/home/bg-3.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
-  background-position-y: -2.1vw;
+  background-size: cover;
+  /* background-size: 100%; */
+  /* background-position-y: -2.1vw; */
 }
 .section-2-container {
   width: 100%;
