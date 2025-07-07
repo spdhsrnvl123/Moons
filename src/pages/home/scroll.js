@@ -1,7 +1,7 @@
 (() => {
     let currentScene = 0;
-    let prevScrollHeight = 0;
-    let yOffset = 0;
+    let prevScrollHeight = 0; //이전 씬
+    let yOffset = 0; // 스크롤 값
     let totalHeight = 0;
     let error_protect = false;
 
@@ -50,15 +50,21 @@
         }
     ]
 
+    //높이 세팅
     const set_Height = () => {
         for (let i = 0; i < scene.length; i++) {
+            //스크롤 영역에 3배 더해서 셋팅
             if (scene[i].type === "scrollEvent") {
                 scene[i].scrollHeight = scene[i].height_add * window.innerHeight;
-            } else if (scene[i].type === "normal") {
-                scene[i].scrollHeight = scene[i].objs.container.offsetHeight;
+            } // 보통영역 세팅
+             else if (scene[i].type === "normal") {
+                // 특정 HTML 요소의 전체 높이 offsetHeight -> 브라우저 뷰포트 높이인 innerHeight로 변경
+                // scene[i].scrollHeight = scene[i].objs.container.offsetHeight;
+                scene[i].scrollHeight = window.innerHeight;
             }
             scene[i].objs.container.style.height = `${scene[i].scrollHeight}px`
         }
+        
         //새로고침 했을때 잘못된 값 삽입 방지.
         totalHeight = 0;
         for (let i = 0; i < scene.length; i++) {
@@ -69,9 +75,10 @@
             }
         }
         document.body.setAttribute('id', `show-scene-${currentScene}`);
-        //새로고침 방지
+
         playAnimation()
     }
+
 
     const calculate = (value, currentYOffset) => {
         let result;
@@ -89,10 +96,11 @@
 
         return result;
     }
+
     const playAnimation = () => {
         let currentYOffset = 0;
-        let value = scene[currentScene].value;
         currentYOffset = yOffset - prevScrollHeight;
+        let value = scene[currentScene].value;
         scrollRatio = currentYOffset / scene[currentScene].scrollHeight;
 
         switch (currentScene) {
@@ -130,13 +138,17 @@
         prevScrollHeight = 0;
         error_protect = false;
         for (let i = 0; i < currentScene; i++) {
-            prevScrollHeight = prevScrollHeight + scene[i].scrollHeight;
+            prevScrollHeight += scene[i].scrollHeight;
+            // console.log(prevScrollHeight)
         }
+        //아래로 스크롤
         if (yOffset > prevScrollHeight + scene[currentScene].scrollHeight) {
             error_protect = true;
             currentScene++;
             document.body.setAttribute("id", `show-scene-${currentScene}`);
         }
+
+        //위로 스크롤
         if (yOffset < prevScrollHeight) {
             error_protect = true;
             if (currentScene === 0) return; //바운스를 방지하기 위해.
@@ -150,7 +162,9 @@
     }
 
     window.addEventListener("scroll", () => {
+        console.log(currentScene)
         yOffset = pageYOffset;
+        // console.log(yOffset)
         update();
     })
 
