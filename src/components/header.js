@@ -3,17 +3,17 @@ export const create_header = () => {
   header.innerHTML = `
     <div class="menu">
       <h1>
-        <a href="../pages/home/index.html">Moon:s</a>
+        <a href="/src/pages/home/index.html">Moon:s</a>
       </h1>
       <ul class="menu_content">
         <li>
-          <a href="../pages/about/index.html">About</a>
+          <a href="/src/pages/about/index.html">About</a>
         </li>
         <li>
-          <a href="../pages/service/index.html">Service</a>
+          <a href="/src/pages/service/index.html">Service</a>
         </li>
         <li>
-          <a href="../pages/media/index.html">Media</a>
+          <a href="/src/pages/media/index.html">Media</a>
         </li>
       </ul>
     </div>

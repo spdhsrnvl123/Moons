@@ -4,7 +4,7 @@
 }
 @font-face {
   font-family: inklipquid;
-  src: url("../font/inklipquid.ttf");
+  src: url("../../assets/font/inklipquid.ttf");
 }
 html {
   font-size: 1vw;
@@ -51,14 +51,12 @@ header {
   text-decoration: underline;
   cursor: pointer;
 }
-/* ---------------------------------------- */
 section {
   height: 53vw;
   /* border-top: 5px dotted; */
 }
-/* --------------------------------------------------- */
 .section-0 {
-  background-image: url("../images2/service\ bg.png");
+  background-image: url("../../assets/images/pages/service/gradient-bg.png");
   background-size: cover;
 }
 .section-0-under {
@@ -149,7 +147,6 @@ section {
   padding-right: 1.3vw;
 }
 
-/* --------------------------------------------------- */
 .section-1 {
   background-color: #f8eae1;
 }
@@ -236,7 +233,6 @@ section {
   width: 100vw;
 }
 
-/* --------------------------------------------------- */
 .section-2.active .home,
 .section-2.active .box-2 .number-2,
 .section-2.active .box-2 .first-text-2,
@@ -446,7 +442,6 @@ section {
   opacity: 0;
   transition: all 1s 0.8s;
 }
-/* --------------------------------------------------- */
 .section-5.active .searchBox img:nth-child(1),
 .section-5.active .searchBox img:nth-child(2),
 .section-5.active .searchBox img:nth-child(3),
@@ -561,7 +556,6 @@ section {
   opacity: 0;
   transition: all 1s 0.8s;
 }
-/* --------------------------------------------------- */
 .section-6.active .section-6-under img,
 .section-6.active .box-6 .number-6,
 .section-6.active .box-6 .first-text-6,
@@ -625,7 +619,7 @@ section {
 }
 
 .section-7 {
-  background-image: url(../images2/white\ bg.png);
+  background-image: url("../../assets/images/pages/service/white-bg.png");
   /* background-position-y: vw; */
   background-size: 100vw;
   background-repeat: no-repeat;
