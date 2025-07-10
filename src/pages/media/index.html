@@ -9,16 +9,7 @@
     <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-    <header>
-      <div class="menu">
-        <h1><a href="/index.html">Moon:s</a></h1>
-        <ul class="menu_content">
-          <li><a href="about.html">About</a></li>
-          <li><a href="service.html">Service</a></li>
-          <li><a href="media.html">Media</a></li>
-        </ul>
-      </div>
-    </header>
+    <div id="header-container"></div>
     <section class="section-0">
       <div class="text-0">
         <span>M</span>
@@ -181,35 +172,14 @@
         </div>
       </div>
     </section>
-    <footer>
-      <div class="text_container">
-        <p>MOON:s</p>
-        <div class="text_1">
-          <p>서울특별시 서초구 반포대로 12길 22</p>
-          <p>사업자등록번호 : 123-45-67890</p>
-        </div>
-        <div class="text_2">
-          <p>전화 : 5367-6589</p>
-          <p>Fax : 031-333-444</p>
-          <p>이메일 : spdhsrnvl123@naver.com</p>
-        </div>
-        <p>COPYRIGHT 2022 MOON:s ALL RIGHTS RESERVED</p>
-      </div>
-      <div class="sns">
-        <a target="_blank" href="https://about.facebook.com/ko/meta/"
-          ><img src="images/fb.png"
-        /></a>
-        <a target="_blank" href="https://twitter.com/?lang=ko"
-          ><img src="images/tw.png"
-        /></a>
-        <a target="_blank" href="https://www.youtube.com/"
-          ><img src="images/ytube.png"
-        /></a>
-        <a target="_blank" href="https://www.instagram.com/"
-          ><img src="images/is.png" width="38px" style="margin-bottom: -3px"
-        /></a>
-      </div>
-    </footer>
+    <div id="footer_container"></div>
   </body>
+  <script type="module">
+    import { init_header } from "../../components/header.js";
+    import { init_footer } from "../../components/footer.js";
+
+    init_header();
+    init_footer();
+  </script>
   <script src="./js/media.js"></script>
 </html>
