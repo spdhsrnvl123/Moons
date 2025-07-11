@@ -678,7 +678,7 @@ section {
   width: 100vw;
 }
 .section-7-behind {
-  background-image: url(../images2/09.jpg);
+  background-image: url("../../assets/images/pages/service/all-design.jpg");
   background-repeat: no-repeat;
   background-size: 100vw;
   width: 100vw;
@@ -689,7 +689,7 @@ section {
 }
 
 .section-8 {
-  background-image: url(../images2/09.jpg);
+  background-image: url("../../assets/images/pages/service/all-design.jpg");
   background-size: 100vw;
   background-repeat: no-repeat;
   background-position-y: -6vw;

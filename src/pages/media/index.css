@@ -1,10 +1,10 @@
 @font-face {
   font-family: WildernessTypeface-Regular;
-  src: url("../font/WildernessTypeface-Regular.ttf");
+  src: url("../../assets/font/WildernessTypeface-Regular.ttf");
 }
 @font-face {
   font-family: inklipquid;
-  src: url("../font/inklipquid.ttf");
+  src: url("../../assets/font/inklipquid.ttf");
 }
 html {
   font-size: 1vw;
@@ -48,7 +48,6 @@ header {
 section {
   height: 53vw;
   background-color: #f8eae1;
-  /* border-top: 10px dotted; */
 }
 .section-0 {
   background-color: #f0f2ec;
@@ -108,7 +107,7 @@ section {
   padding-bottom: 0.4em;
 }
 .section-1 .penPhrases .second_text {
-  background-image: url(../images3/greenBox1.png);
+  background-image: url("../../assets/images/pages/media/green-box.png");
   width: 23.8vw;
   margin-bottom: 2.5em;
   padding: 0.8em;
@@ -119,7 +118,6 @@ section {
   top: 29%;
   left: 36%;
   width: 48vw;
-  /* height: 30vw; */
 }
 .section-2 {
   position: relative;
@@ -166,16 +164,12 @@ section {
   position: absolute;
   display: flex;
   transition: all 1s;
-  /* transform: translateX(-44.2vw); */
-  /* background-color: blue; */
 }
 .section-2 .container .box {
   position: relative;
   width: 22.1vw;
   height: 31.6vw;
   transition: all 0.5s;
-  /* margin-right: 0.4vw; */
-  /* background-color: red; */
 }
 .section-2 .container.active .box:nth-child(3),
 .section-2 .container.active .box:nth-child(4) {
@@ -330,7 +324,7 @@ section {
   margin-right: 1.1vw;
 }
 .section-4 .container .box:nth-child(1) {
-  background-image: url("../images3/picture\ 01.png");
+  background-image: url("../../assets/images/pages/media/fountain-pen.png");
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
@@ -360,7 +354,7 @@ section {
   cursor: pointer;
 }
 .section-4 .container .box:nth-child(2) {
-  background-image: url("../images3/picture\ 02.png");
+  background-image: url("../../assets/images/pages/media/handwriting.png");
   background-repeat: no-repeat;
   position: relative;
   background-size: cover;
