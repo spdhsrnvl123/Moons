@@ -3,7 +3,7 @@
 
 ---
 ### ❗️프로젝트 리뉴얼 계획
-> 반응형으로 진행 예정
+> Webpack, Nginx
 
 ---
 
@@ -40,7 +40,7 @@ Front-end - 1명
     </thead>
     <tbody>
         <tr>
-            <td><img width="400px" src="./presentationGif/메인페이지.gif" /></td>
+            <td><img width="400px" src="./src/assets/images/icons/logo.png" /></td>
             <td><img width="400px" src="./presentationGif/어바웃페이지.gif" /></td>
         </tr>
     </tbody>
