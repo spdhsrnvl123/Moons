@@ -1,0 +1,25 @@
+{
+  "name": "moons",
+  "version": "1.0.0",
+  "description": "<img width=\"754\" alt=\"스크린샷 2023-01-24 오후 3 46 03 1\" src=\"https://user-images.githubusercontent.com/83896466/214228828-5e770520-5812-440d-84a4-2d1622f3b1ae.png\">",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spdhsrnvl123/Moons.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spdhsrnvl123/Moons/issues"
+  },
+  "homepage": "https://github.com/spdhsrnvl123/Moons#readme",
+  "devDependencies": {
+    "webpack": "^5.100.1",
+    "webpack-cli": "^6.0.1"
+  }
+}

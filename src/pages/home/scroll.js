@@ -4,6 +4,8 @@
     let yOffset = 0; // 스크롤 값
     let totalHeight = 0;
     let error_protect = false;
+    let scrollRatio = 0; // 현재 씬의 스크롤 비율
+    
 
     const scene = [
         {
