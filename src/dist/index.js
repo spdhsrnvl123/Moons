@@ -1,7 +1,5 @@
 import { init_header } from "../components/header.js";
 import { init_footer } from "../components/footer.js";
-import "../pages/home/index.js";
-
 // 공통 CSS만 항상 로드
 import "../styles/reset.css";
 
@@ -26,13 +24,14 @@ const loadPageScripts = () => {
     import ("../pages/media/index.css");
   } else {
     import ("../pages/home/index.css");
-    import ("../pages/home/scroll.css");
+    import ("../pages/home/index.js");
   }
   // 홈페이지는 기본으로 이미 로드됨
 };
 
 document.addEventListener("DOMContentLoaded", function () {
   init_header();
+  console.log("Header initialized");
   init_footer();
   loadPageScripts();
 });
