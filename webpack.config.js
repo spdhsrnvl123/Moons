@@ -1,5 +1,5 @@
 const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin"); // ← 이거 꼭 필요!
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   //   mode: "development",
@@ -8,6 +8,8 @@ module.exports = {
   output: {
     filename: "main.js",
     path: path.resolve(__dirname, "dist"),
+    publicPath: "/Moons/",
+    clean: true,
   },
   module: {
     rules: [
@@ -21,7 +23,6 @@ module.exports = {
         options: {
           sources: {
             list: [
-              // 처리할 HTML 속성들
               {
                 tag: "img",
                 attribute: "src",
@@ -38,9 +39,9 @@ module.exports = {
     ],
   },
   plugins: [
-    // ✅ 여기 안에 HtmlWebpackPlugin 인스턴스를 넣습니다.
+
     new HtmlWebpackPlugin({
-      template: "./src/pages/home/index.html", // 템플릿 위치
+      template: "./src/pages/home/index.html",
     }),
   ],
 };
