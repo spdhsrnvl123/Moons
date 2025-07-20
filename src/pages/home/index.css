@@ -11,7 +11,7 @@
 /* 기본 설정 */
 body {
   /* overflow-x: hidden; */
-  width: 1920px;
+  max-width: 1920px;
   height: 1080px;
   margin: 0 auto;
 }
@@ -25,7 +25,8 @@ header {
   z-index: 999;
   color: #144814;
   padding-top: 24.5px;
-  width: 1920px;
+  max-width: 1920px;
+  width: 100%;
   /* background-color: red; */
 }
 
@@ -297,7 +298,6 @@ section {
   height: 511px;
   margin-right: 92px;
   transition: all 0.3s ease;
-  background-color: red;
 }
 
 .box:hover {
@@ -363,7 +363,237 @@ footer {
   height: 32px;
 }
 
-/* 노트북 - 1440px */
+
+/* 노트북 화면 대응 (1440px ~ 1700px) */
 @media (max-width: 1700px) {
+  /* 스케일 비율: 약 0.83 (1600/1920) */
   
+  /* 헤더 */
+  nav h1 a {
+    font-size: 42px; /* 50px * 0.83 */
+    padding-left: 247px; /* 297px * 0.83 */
+  }
+  
+  ul {
+    padding-left: 504px; /* 607px * 0.83 */
+  }
+  
+  ul li a {
+    font-size: 22px; /* 27px * 0.83 */
+    padding-right: 116px; /* 140px * 0.83 */
+  }
+  
+  ul li:nth-child(3) a {
+    padding-right: 258px; /* 311px * 0.83 */
+  }
+  
+  /* 메인 타이틀 */
+  .main-title {
+    font-size: 440px; /* 530px * 0.83 */
+    margin-top: 110px; /* 132px * 0.83 */
+  }
+  
+  .first-text {
+    font-size: 25px; /* 30px * 0.83 */
+  }
+  
+  .second-text {
+    font-size: 20px; /* 24px * 0.83 */
+  }
+  
+  /* 섹션 1 */
+  .section-1-content {
+    padding-top: 389px; /* 468px * 0.83 */
+    padding-left: 247px; /* 298px * 0.83 */
+  }
+  
+  .section-1-text {
+    font-size: 75px; /* 90px * 0.83 */
+  }
+  
+  .section-1-text2 {
+    font-size: 21px; /* 25px * 0.83 */
+    line-height: 30px; /* 36px * 0.83 */
+  }
+  
+  /* 섹션 2 */
+  .section-2-content {
+    padding-left: 249px; /* 300px * 0.83 */
+    padding-top: 332px; /* 400px * 0.83 */
+  }
+  
+  .section-2-text {
+    font-size: 75px; /* 90px * 0.83 */
+  }
+  
+  .section-2-text2 {
+    font-size: 21px; /* 25px * 0.83 */
+  }
+  
+  /* 메시지 섹션 */
+  .message {
+    top: 327px; /* 394px * 0.83 */
+    margin-left: 238px; /* 287px * 0.83 */
+  }
+  
+  .message h2 {
+    font-size: 37px; /* 45px * 0.83 */
+  }
+  
+  .message p {
+    font-size: 25px; /* 30px * 0.83 */
+    line-height: 36px; /* 43px * 0.83 */
+  }
+  
+  .message .app {
+    top: -223px; /* -269px * 0.83 */
+    left: 702px; /* 845px * 0.83 */
+    width: 314px; /* 378px * 0.83 */
+    height: 657px; /* 790px * 0.83 */
+  }
+  
+  /* 박스 컨테이너 */
+  .box_container {
+    margin-left: 224px; /* 270px * 0.83 */
+  }
+  
+  .box {
+    width: 326px; /* 392px * 0.83 */
+    height: 424px; /* 511px * 0.83 */
+    margin-right: 76px; /* 92px * 0.83 */
+  }
+  
+  /* 푸터 */
+  .footer-info {
+    padding-left: 240px; /* 289px * 0.83 */
+  }
+  
+  .company-details p {
+    margin-right: 48px; /* 58px * 0.83 */
+  }
+  
+  .contact-info p {
+    margin-right: 63px; /* 76px * 0.83 */
+  }
+  
+  .sns {
+    right: 259px; /* 312px * 0.83 */
+  }
+}
+
+/* 더 작은 노트북 화면 (1440px 이하) */
+@media (max-width: 1440px) {
+  /* 스케일 비율: 약 0.75 (1440/1920) */
+  
+  /* 헤더 */
+  nav h1 a {
+    font-size: 38px; /* 50px * 0.75 */
+    padding-left: 223px; /* 297px * 0.75 */
+  }
+  
+  ul {
+    padding-left: 455px; /* 607px * 0.75 */
+  }
+  
+  ul li a {
+    font-size: 20px; /* 27px * 0.75 */
+    padding-right: 105px; /* 140px * 0.75 */
+  }
+  
+  ul li:nth-child(3) a {
+    padding-right: 233px; /* 311px * 0.75 */
+  }
+  
+  /* 메인 타이틀 */
+  .main-title {
+    font-size: 398px; /* 530px * 0.75 */
+    margin-top: 99px; /* 132px * 0.75 */
+  }
+  
+  .first-text {
+    font-size: 23px; /* 30px * 0.75 */
+  }
+  
+  .second-text {
+    font-size: 18px; /* 24px * 0.75 */
+  }
+  
+  /* 섹션 1 */
+  .section-1-content {
+    padding-top: 351px; /* 468px * 0.75 */
+    padding-left: 224px; /* 298px * 0.75 */
+  }
+  
+  .section-1-text {
+    font-size: 68px; /* 90px * 0.75 */
+  }
+  
+  .section-1-text2 {
+    font-size: 19px; /* 25px * 0.75 */
+    line-height: 27px; /* 36px * 0.75 */
+  }
+  
+  /* 섹션 2 */
+  .section-2-content {
+    padding-left: 225px; /* 300px * 0.75 */
+    padding-top: 300px; /* 400px * 0.75 */
+  }
+  
+  .section-2-text {
+    font-size: 68px; /* 90px * 0.75 */
+  }
+  
+  .section-2-text2 {
+    font-size: 19px; /* 25px * 0.75 */
+  }
+  
+  /* 메시지 섹션 */
+  .message {
+    top: 296px; /* 394px * 0.75 */
+    margin-left: 215px; /* 287px * 0.75 */
+  }
+  
+  .message h2 {
+    font-size: 34px; /* 45px * 0.75 */
+  }
+  
+  .message p {
+    font-size: 23px; /* 30px * 0.75 */
+    line-height: 32px; /* 43px * 0.75 */
+  }
+  
+  .message .app {
+    top: -202px; /* -269px * 0.75 */
+    left: 634px; /* 845px * 0.75 */
+    width: 284px; /* 378px * 0.75 */
+    height: 593px; /* 790px * 0.75 */
+  }
+  
+  /* 박스 컨테이너 */
+  .box_container {
+    margin-left: 203px; /* 270px * 0.75 */
+  }
+  
+  .box {
+    width: 294px; /* 392px * 0.75 */
+    height: 383px; /* 511px * 0.75 */
+    margin-right: 69px; /* 92px * 0.75 */
+  }
+  
+  /* 푸터 */
+  .footer-info {
+    padding-left: 217px; /* 289px * 0.75 */
+  }
+  
+  .company-details p {
+    margin-right: 44px; /* 58px * 0.75 */
+  }
+  
+  .contact-info p {
+    margin-right: 57px; /* 76px * 0.75 */
+  }
+  
+  .sns {
+    right: 234px; /* 312px * 0.75 */
+  }
 }
