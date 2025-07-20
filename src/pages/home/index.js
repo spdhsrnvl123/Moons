@@ -236,7 +236,7 @@ const update = () => {
     }
   };
   carousel();
-//   setInterval(carousel, 4000);
+  setInterval(carousel, 4000);
 };
 
 window.addEventListener("load", update);
