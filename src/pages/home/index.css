@@ -10,7 +10,7 @@
 
 /* 기본 설정 */
 body {
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   max-width: 1920px;
   height: 1080px;
   margin: 0 auto;
@@ -25,9 +25,7 @@ header {
   z-index: 999;
   color: #144814;
   padding-top: 24.5px;
-  max-width: 1920px;
   width: 100%;
-  /* background-color: red; */
 }
 
 nav {
