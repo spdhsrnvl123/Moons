@@ -7,18 +7,19 @@ import instagramIcon from "../assets/images/icons/is.png";
 export const create_footer = () => {
   const footer = document.createElement("footer");
   footer.innerHTML = `
-    <div class="text_container">
+    <div class="footer-info">
       <p>MOON:s</p>
-      <div class="text_1">
+      <div class="company-details">
         <p>서울특별시 서초구 반포대로 12길 22</p>
+        <p>대표 : 이태형</p>
         <p>사업자등록번호 : 123-45-67890</p>
       </div>
-      <div class="text_2">
+      <div class="contact-info">
         <p>전화 : 5367-6589</p>
         <p>Fax : 031-333-444</p>
         <p>이메일 : spdhsrnvl123@naver.com</p>
-      </div>
-      <p>COPYRIGHT 2022 MOON:s ALL RIGHTS RESERVED</p>
+        </div>
+        <p>COPYRIGHT 2025 MOON:s ALL RIGHTS RESERVED</p>
     </div>
     <div class="sns">
       <a target="_blank" href="https://about.facebook.com/ko/meta/">
@@ -31,7 +32,7 @@ export const create_footer = () => {
         <img src="${youtubeIcon}" alt="YouTube" />
       </a>
       <a target="_blank" href="https://www.instagram.com/">
-        <img src="${instagramIcon}" alt="Instagram" width="38px" style="margin-bottom: -3px" />
+        <img src="${instagramIcon}" alt="Instagram" />
       </a>
     </div>
   `;

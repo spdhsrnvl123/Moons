@@ -8,7 +8,7 @@ module.exports = {
   output: {
     filename: "main.js",
     path: path.resolve(__dirname, "dist"),
-    publicPath: "/Moons/",
+    // publicPath: "/Moons/",
     clean: true,
   },
   module: {
@@ -39,7 +39,6 @@ module.exports = {
     ],
   },
   plugins: [
-
     new HtmlWebpackPlugin({
       template: "./src/pages/home/index.html",
     }),

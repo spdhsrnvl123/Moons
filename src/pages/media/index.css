@@ -97,7 +97,7 @@ section {
   color: #144814;
 }
 .section-1 .penPhrases img {
-  width: 7.5vw;
+  /* width: 7.5vw; */
   cursor: pointer;
 }
 
