@@ -17,8 +17,25 @@
       rel="stylesheet"
     />
   </head>
-  <body >
-    <div id="header-container"></div>
+  <body>
+    <header>
+      <nav>
+        <h1>
+          <a href="/src/pages/home/index.html">Moon:s</a>
+        </h1>
+        <ul>
+          <li>
+            <a href="/src/pages/about/index.html">About</a>
+          </li>
+          <li>
+            <a href="/src/pages/service/index.html">Service</a>
+          </li>
+          <li>
+            <a href="/src/pages/media/index.html">Media</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <ul class="pointWrap">
       <li></li>
       <li></li>
@@ -183,14 +200,36 @@
         </div>
       </div>
     </section>
-    <div id="footer_container"></div>
+    <footer>
+      <div class="footer-info">
+        <p>MOON:s</p>
+        <div class="company-details">
+          <p>서울특별시 서초구 반포대로 12길 22</p>
+          <p>대표 : 이태형</p>
+          <p>사업자등록번호 : 123-45-67890</p>
+        </div>
+        <div class="contact-info">
+          <p>전화 : 5367-6589</p>
+          <p>Fax : 031-333-444</p>
+          <p>이메일 : spdhsrnvl123@naver.com</p>
+        </div>
+        <p>COPYRIGHT 2025 MOON:s ALL RIGHTS RESERVED</p>
+      </div>
+      <div class="sns">
+        <a target="_blank" href="https://about.facebook.com/ko/meta/">
+          <img src="../../assets/images/icons/fb.png" alt="Facebook" />
+        </a>
+        <a target="_blank" href="https://twitter.com/?lang=ko">
+          <img src="../../assets/images/icons/tw.png" alt="Twitter" />
+        </a>
+        <a target="_blank" href="https://www.youtube.com/">
+          <img src="../../assets/images/icons/ytube.png" alt="YouTube" />
+        </a>
+        <a target="_blank" href="https://www.instagram.com/">
+          <img src="../../assets/images/icons/is.png" alt="Instagram" />
+        </a>
+      </div>
+    </footer>
   </body>
-  <script type="module">
-    import { init_header } from "../../components/header.js";
-    import { init_footer } from "../../components/footer.js";
-
-    init_header();
-    init_footer();
-  </script>
   <script src="./index.js"></script>
 </html>

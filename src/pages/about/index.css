@@ -15,12 +15,41 @@ html {
   font-size: 1vw;
   overflow-x: hidden;
 }
-header {
+
+header nav {
   position: fixed;
-  z-index: 100;
-  width: 100%;
+  z-index: 999;
   color: #144814;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+nav h1 a {
+  font-size: 50px;
+  text-decoration: none;
+  color: #144814;
+  padding-left: 297px;
+}
+
+ul {
+  display: flex;
+}
+ul li a {
+  font-size: 27px;
+  color: #144814;
+  text-decoration: none;
+  padding-right: 140px;
+}
+
+ul li a:hover {
+  color: #4caf50;
+}
+ul li:nth-child(3) a {
+  padding-right: 311px;
+}
+
 .menu {
   display: flex;
   justify-content: space-between;
@@ -471,33 +500,53 @@ section {
   transform: translate(-50%, -50%);
 }
 
+/* 푸터 */
 footer {
   position: relative;
-  height: 14vh;
   background-color: #e4af99;
   color: rgb(101, 101, 101);
+  font-size: 18px;
+  width: 1920px;
 }
-.text_container {
-  max-width: 80%;
-  margin: 0 auto;
-  padding-top: 0.5vw;
-  line-height: 1.5;
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-left: 289px;
+  gap: 10px;
 }
-.text_container .text_1,
-.text_2 {
+
+.company-details {
+  display: flex;
+  align-items: center; /* 세로 중앙 정렬 */
+}
+
+.company-details p {
+  margin-right: 58px;
+}
+
+.contact-info {
   display: flex;
 }
-.text_container .text_1 p {
-  padding-right: 1.6vw;
+
+.contact-info p {
+  margin-right: 76px;
 }
-.text_container .text_2 p {
-  padding-right: 4.9vw;
-}
+
 .sns {
   position: absolute;
-  bottom: 10%;
-  right: 10%;
+  right: 312px;
+  bottom: 30px;
 }
+
 .sns a {
-  padding-right: 0.4vw;
+  text-decoration: none;
+  padding-right: 27px;
 }
+
+.sns img {
+  width: 32px;
+  height: 32px;
+}
+

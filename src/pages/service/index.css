@@ -16,12 +16,40 @@ html {
     overflow-x: hidden;
   }
 }
-header {
+header nav {
   position: fixed;
-  z-index: 100;
-  width: 100%;
+  z-index: 999;
   color: #144814;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
+
+nav h1 a {
+  font-size: 50px;
+  text-decoration: none;
+  color: #144814;
+  padding-left: 297px;
+}
+
+ul {
+  display: flex;
+}
+ul li a {
+  font-size: 27px;
+  color: #144814;
+  text-decoration: none;
+  padding-right: 140px;
+}
+
+ul li a:hover {
+  color: #4caf50;
+}
+ul li:nth-child(3) a {
+  padding-right: 311px;
+}
+
 .menu {
   display: flex;
   justify-content: space-between;
@@ -226,7 +254,7 @@ section {
 }
 .section-1-under .box-1 .second-text-1 {
   position: absolute;
-  bottom: 15%;
+  bottom: 45%;
   left: 5%;
   transition: all 1s 0.8s;
   opacity: 0;
@@ -270,7 +298,7 @@ section {
 .section-2-under .box-2 .second-text-2 {
   font-size: 1vw;
   position: absolute;
-  top: 28%;
+  top: 20%;
   left: 0.4%;
   opacity: 0;
   transition: all 1s 0.8s;
@@ -353,7 +381,7 @@ section {
 .section-3-under .box-3 .second-text-3 {
   font-size: 1vw;
   position: absolute;
-  top: 55%;
+  top: 40%;
   left: 0.5%;
   opacity: 0;
   transition: all 1s 0.8s;
@@ -550,7 +578,7 @@ section {
 .section-5-under .box-5 .second-text-5 {
   font-size: 1vw;
   position: absolute;
-  top: 57%;
+  top: 40%;
   left: 0.5%;
   width: 100vw;
   opacity: 0;
@@ -602,7 +630,7 @@ section {
 .section-6-under .box-6 .second-text-6 {
   font-size: 1vw;
   position: absolute;
-  top: 64%;
+  top: 55%;
   left: 0.5%;
   opacity: 0;
   transition: all 1s 0.8s;
@@ -672,7 +700,7 @@ section {
 .section-7-under .box-7 .second-text-7 {
   font-size: 1vw;
   position: absolute;
-  top: 55%;
+  top: 50%;
   opacity: 0;
   transition: all 1s 0.8s;
   width: 100vw;
@@ -695,33 +723,53 @@ section {
   background-position-y: -6vw;
 }
 
+
+/* 푸터 */
 footer {
   position: relative;
-  height: 14vh;
   background-color: #e4af99;
   color: rgb(101, 101, 101);
+  font-size: 18px;
+  width: 1920px;
 }
-.text_container {
-  max-width: 80%;
-  margin: 0 auto;
-  padding-top: 0.5vw;
-  line-height: 1.5;
+.footer-info {
+  display: flex;
+  flex-direction: column;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-left: 289px;
+  gap: 10px;
 }
-.text_container .text_1,
-.text_2 {
+
+.company-details {
+  display: flex;
+  align-items: center; /* 세로 중앙 정렬 */
+}
+
+.company-details p {
+  margin-right: 58px;
+}
+
+.contact-info {
   display: flex;
 }
-.text_container .text_1 p {
-  padding-right: 1.6vw;
+
+.contact-info p {
+  margin-right: 76px;
 }
-.text_container .text_2 p {
-  padding-right: 4.9vw;
-}
+
 .sns {
   position: absolute;
-  bottom: 10%;
-  right: 10%;
+  right: 312px;
+  bottom: 30px;
 }
+
 .sns a {
-  padding-right: 0.4vw;
+  text-decoration: none;
+  padding-right: 27px;
+}
+
+.sns img {
+  width: 32px;
+  height: 32px;
 }
