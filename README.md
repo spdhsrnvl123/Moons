@@ -4,7 +4,7 @@
 
 _감성 필기구 브랜드 Moon:s의 앱을 소개하고, 필기구 관련 칼럼과 영상을 추천하는 웹 서비스_
 
-<a href="https://spdhsrnvl123.github.io/Moons/">Website</a> | <a href='https://www.instagram.com/posepicker/'>notion</a> | <a href='https://online.fliphtml5.com/syfst/tnwo/#p=4'>발표 자료</a>
+<a href="https://spdhsrnvl123.github.io/Moons/">Website</a> | <a href='https://roomy-hydrangea-829.notion.site/4808db788a3c42ce9c04066ddf27a41c'>notion</a> | <a href='https://online.fliphtml5.com/syfst/tnwo/#p=4'>발표 자료</a>
 <br/>
 <br/>
 <br/>
